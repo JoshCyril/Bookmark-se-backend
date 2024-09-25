@@ -1,4 +1,5 @@
 import { appendFile } from 'fs';
+import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import axios from 'axios';
@@ -11,23 +12,23 @@ const __dirname = dirname(__filename);
 
 
 
-export async function urlToBase64(url) {
-    try {
-        // Fetch the image using axios with responseType set to 'arraybuffer'
-        const response = await axios.get(url, { responseType: 'arraybuffer' });
-        // console.log(response.data)
-        // Create a Buffer from the response data
-        const base64String = Buffer.from(response.data).toString('base64');
+// export async function urlToBase64(url) {
+//     try {
+//         // Fetch the image using axios with responseType set to 'arraybuffer'
+//         const response = await axios.get(url, { responseType: 'arraybuffer' });
+//         // console.log(response.data)
+//         // Create a Buffer from the response data
+//         const base64String = Buffer.from(response.data).toString('base64');
 
-        // Return the Base64 string with the correct MIME type (e.g., image/jpeg)
-        const mimeType = response.headers['content-type']; // E.g., 'image/jpeg'
-        // return `data:${mimeType};base64,${base64String}`;
-        return `${base64String}`;
-      } catch (error) {
-        console.error('Error fetching or converting image to Base64:', error);
-        throw error;
-      }
-}
+//         // Return the Base64 string with the correct MIME type (e.g., image/jpeg)
+//         const mimeType = response.headers['content-type']; // E.g., 'image/jpeg'
+//         // return `data:${mimeType};base64,${base64String}`;
+//         return `${base64String}`;
+//       } catch (error) {
+//         console.error('Error fetching or converting image to Base64:', error);
+//         throw error;
+//       }
+// }
 
 // export function urlToBase64(url) {
 //     return fetch(url)
@@ -96,3 +97,55 @@ export async function urlToBase64(url) {
         dest: `${__dirname}/img/${count}`
         });
     }
+
+
+
+    // const url = 'https://i.sstatic.net/RRuCp.png'
+
+    // async function fetchImage(url){
+    //     const response = await fetch(url, {mode: 'no-cors',})
+    //     const blob = await response.blob()
+
+    //     return blob
+    // }
+
+    // export async function urlToBase64(url){
+
+    //     const imageBlob = await fetchImage(url)
+    //     const reader = new FileReader()
+
+    //     reader.onload = () => {
+    //         const base64data = fs.result
+    //         console.log({base64data})
+    //     }
+    //     reader.onerror = () => {
+    //         console.log('error')
+    //     }
+    //     reader.readAsDataURL(imageBlob)
+
+    //     return imageBlob
+    // }
+
+    export async function urlToBase64(url) {
+        let response = await fetch(url);
+        let blob = await response.blob();
+        let buffer = Buffer.from(await blob.arrayBuffer()).toString('base64');
+
+        let res ={
+            "image": {
+              "mime": blob.type,
+              "data": buffer
+            }
+        }
+        return buffer;
+        //  "data:" + blob.type + ';base64,' + buffer;
+        // return buffer.toString('base64');
+    }
+
+    // // Declare function
+    // const base64ToBlob = async (base64, type = 'application/octet-stream') =>
+    //     fetch(`data:${type};base64,${base64}`)
+    //     .then(res => res.blob())
+
+    // // Call function
+    // const blob = await base64ToBlob('iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==', 'image/png')

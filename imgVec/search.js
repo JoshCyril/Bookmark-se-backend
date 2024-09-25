@@ -15,33 +15,60 @@ const client = weaviate.client({
 
 
 export async function idbSearch(req){
-    results = []
+    let results = []
+    let search = ''
 
-    let search = urlToBase64(req.url)
+    if(req.isBase64){
+        search = req.query
+    }else{
+        search = await urlToBase64(req.query)
+    }
+
+    let clName = req.coll
+    let iCtr = 0
 
     let resImage = await client.graphql.get()
-        .withClassName(req.coll)
-        .withFields(['image, text'])
+        .withClassName(clName)
+        .withFields(['text'])
         .withNearImage({ image: search })
-        .withLimit(2)
+        .withLimit(req.count)
         .do();
+    let res = resImage.data.Get
+        for (const v in res) {
+            res[v].forEach(el => {
+                let textSpl = el.text.split('|')
+                let result = {
+                    "count": iCtr+1,
+                    "id": textSpl[0],
+                    "url": textSpl[1],
+                    "favicon": textSpl[2],
+                    "image": textSpl[3]
+                }
+                results.push(result)
+                iCtr++;
+            });
+          }
 
-    for (let i=0; i<req.count; i++){
-        let textSpl = resImage.data.Get.Images[i].text.split('|')
-        let result = {
-            "count": i+1,
-            "id": textSpl[0],
-            "url": textSpl[1],
-            "favicon": textSpl[2],
-            "image": textSpl[3]
-        }
-        results.push(result)
 
-        // let test = Buffer.from( fs.readFileSync('./test.png') ).toString('base64');
-        // fs.writeFileSync(`./result${i}.jpg`, resImage.data.Get.Images[i].image, 'base64');
-        // base64ToUrl(base64String, 'image/jpeg')
-        // results[i] = resImage.data.Get.Images[i].text
-    }
+    // for (let i=0; i<req.count; i++){
+    //     let ctrVal = `resImage.data.Get.${clName}[${i}].text`
+    //     console.log(ctrVal)
+    //     let textSpl = ctrVal.text.split('|')
+    //     console.log(textSpl)
+    //     let result = {
+    //         "count": i+1,
+    //         "id": textSpl[0],
+    //         "url": textSpl[1],
+    //         "favicon": textSpl[2],
+    //         "image": textSpl[3]
+    //     }
+    //     results.push(result)
+
+    //     // let test = Buffer.from( fs.readFileSync('./test.png') ).toString('base64');
+    //     // fs.writeFileSync(`./result${i}.jpg`, resImage.data.Get.Images[i].image, 'base64');
+    //     // base64ToUrl(base64String, 'image/jpeg')
+    //     // results[i] = resImage.data.Get.Images[i].text
+    // }
 
     return results
 }

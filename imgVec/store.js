@@ -15,20 +15,9 @@ const client = weaviate.client({
 export async function idbStore(req){
     // await Promise.all(promises);
     console.log("Creating Embeddings - Image")
-    const dir = './img';
-
-    // fs.rmdir(dir, err => {
-    // if (err) {
-    //     throw err;
-    // }
-        // fs.mkdirSync(dir)
-    // });
-
-    fs.readdirSync(dir).forEach(f => fs.rmSync(`${dir}/${f}`));
-
     let data = JSON.parse(fs.readFileSync('./collections.json').toString());
     let idx = 0
-    let txt = [];
+    // let txt = [];
 
     for (const el of data) {
         if (Array.isArray(el.data.img)){
@@ -36,18 +25,22 @@ export async function idbStore(req){
 
                 let imgval =  nd.split("?")[0]
 
-                if(imgval.slice(-4) === ".png" || imgval.slice(-4) === ".jpg" || imgval.slice(-4) === ".gif"|| imgval.slice(-4) === ".svg"){
-
-                    downloadImage(imgval, idx.toString() + imgval.slice(-4))
+                if(imgval.slice(-4) === ".png" || imgval.slice(-4) === ".jpg" || imgval.slice(-5) === ".jpeg" || imgval.slice(-5) === ".webp" ){
+                    console.log(`${imgval}`)
+                    // downloadImage(imgval, idx.toString() + imgval.slice(-4))
+                    // idx++
+                    // txt.push(el.ids + "|" + el.url + "|" + el.favicon + "|" + nd)
+                    const bb64 = await urlToBase64(imgval)
+                    await client.data.creator()
+                        .withClassName(req.coll)
+                        .withProperties({
+                            text: el.ids + "|" + el.url + "|" + el.favicon + "|" + imgval,
+                            image: bb64,
+                    }).do();
                     idx++
-                    txt.push(el.ids + "|" + el.url + "|" + el.favicon + "|" + nd)
-                }
-                else if(imgval.slice(-5) === ".jpeg" || imgval.slice(-5) === ".webp" ){
-                    downloadImage(imgval, idx.toString()  + imgval.slice(-5))
-                    idx++
-                    txt.push(el.ids + "|" + el.url + "|" + el.favicon + "|" + nd)
-                }
 
+                    console.log(` ${idx} | ${imgval}`)
+                }
 
             }
         }
@@ -62,12 +55,16 @@ export async function idbStore(req){
 
     // const promises = imgFiles.map(async (imgFile) => {
 
-    //     const b64 = Buffer.from(fs.readFileSync(`img/${imgFile}`)).toString('base64');
+    //     // const b64 = Buffer.from(fs.readFileSync(`img/${imgFile}`)).toString('base64');
+    //     const bb64 = await urlToBase64("https://i.sstatic.net/mafZL.jpg")
     //     await client.data.creator()
     //         .withClassName(req.coll)
     //         .withProperties({
-    //             image: b64,
-    //             text: txt[idx],
+
+    //             // image: urlToBase64("https://i.sstatic.net/mafZL.jpg"),
+    //             text: "test image",
+    //             image: bb64,
+    //             // text: txt[idx],
     //     }).do();
     //     idx++
     // })
@@ -79,3 +76,76 @@ export async function idbStore(req){
     return 'Created embedding';
 
 }
+
+
+// export async function idbStore(req){
+//     // await Promise.all(promises);
+//     console.log("Creating Embeddings - Image")
+//     const dir = './img';
+
+//     // fs.rmdir(dir, err => {
+//     // if (err) {
+//     //     throw err;
+//     // }
+//         // fs.mkdirSync(dir)
+//     // });
+
+//     // fs.readdirSync(dir).forEach(f => fs.rmSync(`${dir}/${f}`));
+
+//     // let data = JSON.parse(fs.readFileSync('./collections.json').toString());
+//     let idx = 0
+//     // let txt = [];
+
+//     // for (const el of data) {
+//     //     if (Array.isArray(el.data.img)){
+//     //         for (const nd of el.data.img) {
+
+//     //             let imgval =  nd.split("?")[0]
+
+//     //             if(imgval.slice(-4) === ".png" || imgval.slice(-4) === ".jpg" || imgval.slice(-4) === ".gif"|| imgval.slice(-4) === ".svg"){
+
+//     //                 downloadImage(imgval, idx.toString() + imgval.slice(-4))
+//     //                 idx++
+//     //                 txt.push(el.ids + "|" + el.url + "|" + el.favicon + "|" + nd)
+//     //             }
+//     //             else if(imgval.slice(-5) === ".jpeg" || imgval.slice(-5) === ".webp" ){
+//     //                 downloadImage(imgval, idx.toString()  + imgval.slice(-5))
+//     //                 idx++
+//     //                 txt.push(el.ids + "|" + el.url + "|" + el.favicon + "|" + nd)
+//     //             }
+
+
+//     //         }
+//     //     }
+
+//     // }
+
+
+//     idx = 0
+
+//     const imgFiles = fs.readdirSync('./img');
+//     const Tcount = imgFiles.length
+
+//     const promises = imgFiles.map(async (imgFile) => {
+
+//         // const b64 = Buffer.from(fs.readFileSync(`img/${imgFile}`)).toString('base64');
+//         const bb64 = await urlToBase64("https://i.sstatic.net/mafZL.jpg")
+//         await client.data.creator()
+//             .withClassName(req.coll)
+//             .withProperties({
+
+//                 // image: urlToBase64("https://i.sstatic.net/mafZL.jpg"),
+//                 text: "test image",
+//                 image: bb64,
+//                 // text: txt[idx],
+//         }).do();
+//         idx++
+//     })
+
+
+
+//     // await Promise.all(promises);
+
+//     return 'Created embedding';
+
+// }

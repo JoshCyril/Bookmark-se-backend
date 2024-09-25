@@ -23,9 +23,9 @@ const PORT = process.env.PORT || 3000;
    });
 
    app.get("/check", async (req, res, next) => {
-    // const val = await urlToBase64("https://i.sstatic.net/mafZL.jpg?s=64")
-    downloadImage("https://i.sstatic.net/mafZL.jpg", "1")
-    res.json("done")
+    const val = await urlToBase64("https://i.sstatic.net/mafZL.jpg")
+    // downloadImage("https://i.sstatic.net/mafZL.jpg", "1")
+    res.json(val)
    });
 
    app.post("/reset", async (req, res, next) => {
