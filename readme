@@ -1,0 +1,8 @@
+
+# Command
+
+`docker compose up -d` - Start
+
+`docker compose down` - Stop
+
+`node app.js` - open the api
