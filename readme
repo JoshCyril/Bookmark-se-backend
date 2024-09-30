@@ -6,3 +6,5 @@
 `docker compose down` - Stop
 
 `node app.js` - open the api
+
+`docker-compose up --build` use this

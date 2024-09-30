@@ -60,6 +60,31 @@ const __dirname = dirname(__filename);
 //     return URL.createObjectURL(blob); // Generate a URL for the Blob
 //   }
 
+    export function logEmb(message) {
+        const logFilePath = `${__dirname}/emb.txt`; // Use the __dirname to create the log file path
+        const logEntry = `\n${message}`;
+        let isEmb = false
+
+        let data = (fs.readFileSync('./emb.txt').toString()).split(/\r?\n/);
+        data.forEach((el) => {
+            if(message === el){
+                isEmb = true
+            }
+        });
+
+        // Append the message to the log.txt file
+        if (!isEmb){
+            appendFile(logFilePath, logEntry, (err) => {
+                if (err) {
+                    console.error('Failed to write: embedding:', err);
+                } else {
+                    console.log('updated embedding successfully!');
+                }
+            });
+        }
+
+    }
+
     export function logMessage(message) {
         const logFilePath = `${__dirname}/log.txt`; // Use the __dirname to create the log file path
         const timestamp = new Date().toISOString(); // Get the current timestamp

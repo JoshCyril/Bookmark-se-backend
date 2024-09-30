@@ -18,6 +18,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "image-downloader": "^4.3.0",
+    "pca-js": "^1.0.2",
     "pretty": "^2.0.0",
     "weaviate-client": "^3.1.5",
     "weaviate-ts-client": "^2.2.0"

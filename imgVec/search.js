@@ -41,8 +41,9 @@ export async function idbSearch(req){
                     "count": iCtr+1,
                     "id": textSpl[0],
                     "url": textSpl[1],
-                    "favicon": textSpl[2],
-                    "image": textSpl[3]
+                    "uri": textSpl[2],
+                    "favicon": textSpl[3],
+                    "image": textSpl[4]
                 }
                 results.push(result)
                 iCtr++;

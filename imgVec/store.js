@@ -34,7 +34,7 @@ export async function idbStore(req){
                     await client.data.creator()
                         .withClassName(req.coll)
                         .withProperties({
-                            text: el.ids + "|" + el.url + "|" + el.favicon + "|" + imgval,
+                            text: el.ids + "|" + el.url + "|" + el.uri + "|" + el.favicon + "|" + imgval,
                             image: bb64,
                     }).do();
                     idx++
@@ -73,7 +73,7 @@ export async function idbStore(req){
 
     // await Promise.all(promises);
 
-    return 'Created embedding';
+    return ' Success';
 
 }
 

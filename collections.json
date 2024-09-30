@@ -1,151 +1,19 @@
 [
   {
     "ids": 0,
-    "url": "https://bit.ly/3GsCNkI",
-    "uri": "bit.ly",
-    "favicon": "https://bit.ly/favicon.ico",
-    "title": "Kitchen Cleanliness Tracker - 67 TyNant - Google Sheets",
-    "description": "",
-    "data": {
-      "img": [],
-      "code": []
-    }
+    "url": null,
+    "uri": "Invalid URL",
+    "favicon": "No Icon",
+    "title": "-",
+    "description": "-",
+    "data": ""
   },
   {
     "ids": 1,
-    "url": "cmd://test_error",
-    "uri": "Invalid URL",
-    "favicon": "No Icon",
-    "title": "-",
-    "description": "-",
-    "data": ""
-  },
-  {
-    "ids": 2,
-    "url": "cmd:test_error",
-    "uri": "Invalid URL",
-    "favicon": "No Icon",
-    "title": "-",
-    "description": "-",
-    "data": ""
-  },
-  {
-    "ids": 3,
-    "url": "https://stackoverflow.com/questions/35541864/es6-export-default-function",
-    "uri": "stackoverflow.com",
-    "favicon": "https://stackoverflow.com/favicon.ico",
-    "title": "javascript - ES6 export default function - Stack Overflow",
-    "description": " Communities for your favorite technologies. Explore all Collectives Now available on Stack Overflow for Teams! AI features where you work: search, IDE, and chat. Ask questions, find answer",
-    "data": {
-      "img": [
-        "https://i.sstatic.net/mafZL.jpg?s=64",
-        "https://www.gravatar.com/avatar/2f5da026dcaded0e678aab207f8db817?s=64&d=identicon&r=PG&f=y&so-version=2",
-        "https://www.gravatar.com/avatar/a007be5a61f6aa8f3e85ae2fc18dd66e?s=64&d=identicon&r=PG",
-        "https://www.gravatar.com/avatar/8d0aacd5e5be303d2b09ec751f207b8c?s=64&d=identicon&r=PG",
-        "https://i.sstatic.net/mafZL.jpg?s=64",
-        "https://i.sstatic.net/otbTK.jpg?s=64"
-      ],
-      "code": [
-        "<code>export default function aFnt(){\n    console.log(\"function a\");\n}\nexport default function bFnt(){\n    console.log(\"function b\");\n}\n</code>",
-        "<code>import aFnt from \"./index\";\n\nconsole.log(\"aFnt : \",aFnt);\n</code>",
-        "<code>function a() {}\n\nfunction b() {}\n\nexport default { a, b }\n</code>",
-        "<code>import myObject from './index.js';\n\nmyObject.a(); // function a\nmyObject.b(); // function b\n</code>",
-        "<code>export function aFnt(){\n    console.log(\"function a\");\n}\nexport function bFnt(){\n    console.log(\"function b\");\n}\n</code>",
-        "<code>import {aFnt, bFnt} from \"./index\";\n</code>",
-        "<code>export function first() {}\nexport function second() {}\n</code>",
-        "<code>import { first, second} from './somepath/somefile/';\n</code>",
-        "<code>function first() {}\nfunction second() {}\nconst funcs= {\"first\":first,\"second\":second}\nexport default funcs;\n</code>",
-        "<code>import funcs from './somepath/somefile/';\nfuncs.first();funs.second();\n</code>"
-      ]
-    }
-  },
-  {
-    "ids": 4,
-    "url": "https://www.geeksforgeeks.org/",
-    "uri": "www.geeksforgeeks.org",
-    "favicon": "https://www.geeksforgeeks.org/favicon.ico",
-    "title": "GeeksforGeeks | A computer science portal for geeks",
-    "description": "A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.",
-    "data": {
-      "img": [
-        "https://media.geeksforgeeks.org/gfg-gg-logo.svg",
-        "https://media.geeksforgeeks.org/img-practice/prod/courses/504/Mobile/Other/Course_DSA_to_Dev_1720846081.webp",
-        "https://media.geeksforgeeks.org/img-practice/prod/courses/227/Mobile/Other/Course_Backend_1720846992.webp",
-        "https://media.geeksforgeeks.org/img-practice/prod/courses/458/Mobile/Other/Course_Tech_Int_1720846791.webp",
-        "https://media.geeksforgeeks.org/img-practice/prod/courses/517/Mobile/Other/Course_Software_testing_1720847295.webp",
-        "https://media.geeksforgeeks.org/img-practice/prod/courses/270/Web/Content/CourseJavaProgrammin_1716371938.webp",
-        "https://media.geeksforgeeks.org/img-practice/prod/courses/221/Web/Content/cpp_1723009538.webp",
-        "https://media.geeksforgeeks.org/auth-dashboard-uploads/gfgFooterLogo.png",
-        "https://media.geeksforgeeks.org/img-practice/Location-1685004904.svg",
-        "https://media.geeksforgeeks.org/auth-dashboard-uploads/googleplay-%281%29.png",
-        "https://media.geeksforgeeks.org/auth-dashboard-uploads/appstore-%281%29.png"
-      ],
-      "code": []
-    }
-  },
-  {
-    "ids": 5,
-    "url": "https://www.codecademy.com/learn/paths/computer-science",
-    "uri": "www.codecademy.com",
-    "favicon": "https://www.codecademy.com/favicon.ico",
-    "title": "Computer Science | CodecademyChecker DenseChecker DenseGoogleFacebookGithubAppleChecker DenseChecker DenseChecker DenseChecker DenseGrid RegularGrid RegularGoogle LogoMeta LogoApple LogoEA LogoAmazon LogoIBM LogoMicrosoft LogoReddit LogoSpotify LogoUber LogoYouTube LogoInstagram LogoDiagonal B DenseDiagonal B DenseDiagonal B DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseCodecademy from SkillsoftCodecademy from Skillsoft",
-    "description": "Looking for an introduction to the theory behind programming? Master Python while learning data structures, algorithms, and more!\n\nIncludes **Python**, **Command Line**, **Git**, **Data Structures**, and more.",
-    "data": {
-      "img": [
-        "https://www.gravatar.com/avatar/1485600009?s=140&d=retro",
-        "https://www.gravatar.com/avatar/1468822390?s=140&d=retro",
-        "https://www.gravatar.com/avatar/1452044771?s=140&d=retro",
-        "https://static-assets.codecademy.com/assets/container-landing-pages/platform-showcase/v2/ala_python.gif",
-        "https://static-assets.codecademy.com/assets/container-landing-pages/platform-showcase/v2/real-world-projects.webp",
-        "https://static-assets.codecademy.com/assets/container-landing-pages/platform-showcase/v2/job-readiness-checker.gif",
-        "https://static-assets.codecademy.com/assets/container-landing-pages/platform-showcase/v2/interview-simulator.gif",
-        "https://static-assets.codecademy.com/assets/container-landing-pages/platform-showcase/v2/assessments.webp",
-        "https://static-assets.codecademy.com/assets/container-landing-pages/certificate-section/v1/professional-certification.webp",
-        "https://static-assets.codecademy.com/assets/container-landing-pages/certificate-section/v1/professional-certification-mobile.webp",
-        "https://static-assets.codecademy.com/assets/feature-marketing/job-readiness-checker.gif",
-        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
-        "https://static-assets.codecademy.com/components/curriculum/path/pass-the-technical-interview-with-python/curriculum-card.svg",
-        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg"
-      ],
-      "code": []
-    }
-  },
-  {
-    "ids": 6,
-    "url": "https://www.udacity.com/school-of-programming",
-    "uri": "Invalid URL",
-    "favicon": "No Icon",
-    "title": "-",
-    "description": "-",
-    "data": ""
-  },
-  {
-    "ids": 7,
-    "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/",
-    "uri": "ocw.mit.edu",
-    "favicon": "https://ocw.mit.edu/favicon.ico",
-    "title": "Search | MIT OpenCourseWare | Free Online Course Materials",
-    "description": "MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity",
-    "data": {
-      "img": [],
-      "code": []
-    }
-  },
-  {
-    "ids": 8,
-    "url": "https://www.udemy.com/courses/development/computer-science/",
-    "uri": "Invalid URL",
-    "favicon": "No Icon",
-    "title": "-",
-    "description": "-",
-    "data": ""
-  },
-  {
-    "ids": 9,
-    "url": "https://www.freecodecamp.org/",
-    "uri": "www.freecodecamp.org",
-    "favicon": "https://www.freecodecamp.org/favicon.ico",
-    "title": "",
+    "url": "https://www.khanacademy.org/computing/computer-science\n",
+    "uri": "www.khanacademy.org",
+    "favicon": "https://www.khanacademy.org/favicon.ico",
+    "title": "Khan Academy",
     "description": "",
     "data": {
       "img": [],
@@ -153,17 +21,8 @@
     }
   },
   {
-    "ids": 10,
-    "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript",
-    "uri": "Invalid URL",
-    "favicon": "No Icon",
-    "title": "-",
-    "description": "-",
-    "data": ""
-  },
-  {
-    "ids": 11,
-    "url": "https://www.programiz.com/",
+    "ids": 2,
+    "url": "https://www.programiz.com/\n",
     "uri": "www.programiz.com",
     "favicon": "https://www.programiz.com/favicon.ico",
     "title": "Programiz: Learn to Code for Free",
@@ -174,8 +33,8 @@
     }
   },
   {
-    "ids": 12,
-    "url": "https://www.w3schools.com/",
+    "ids": 3,
+    "url": "https://www.w3schools.com/\n",
     "uri": "www.w3schools.com",
     "favicon": "https://www.w3schools.com/favicon.ico",
     "title": "W3Schools Online Web Tutorials",
@@ -186,51 +45,8 @@
     }
   },
   {
-    "ids": 13,
-    "url": "https://www.pluralsight.com/browse/software-development",
-    "uri": "www.pluralsight.com",
-    "favicon": "https://www.pluralsight.com/favicon.ico",
-    "title": "Software Development Courses. Beginner to Advanced Tutorials | PluralsightPractice exam available",
-    "description": "Discover online software development courses that teach you how to build, deploy and secure web and mobile apps using Java, Angular, JavaScript, Python, C#, and more.",
-    "data": {
-      "img": [],
-      "code": []
-    }
-  },
-  {
-    "ids": 14,
-    "url": "https://www.tutorialspoint.com/computer_science_tutorials.htm",
-    "uri": "www.tutorialspoint.com",
-    "favicon": "https://www.tutorialspoint.com/favicon.ico",
-    "title": "Computer Science Tutorials | Tutorialspoint",
-    "description": "Computer Science Tutorials - Tutorials for professional academic courses  covering Object Oriented Analysis and Design, Signals and Systems, Operating System, Principle of Compiler, DBMS, Data Mining, Data Warehouse, Computer Fundamentals, Computer Networks, E-Commerce, HTTP, IPv4, IPv6, Cloud Computing, SEO, Computer Logical Organization, Management Information System etc.",
-    "data": {
-      "img": [
-        "https://www.tutorialspoint.com/static/images/logo-footer.svg",
-        "https://www.tutorialspoint.com/static/images/googleplay.svg",
-        "https://www.tutorialspoint.com/static/images/appstore.svg"
-      ],
-      "code": []
-    }
-  },
-  {
-    "ids": 15,
-    "url": "https://www.javatpoint.com/computer-science-tutorial",
-    "uri": "www.javatpoint.com",
-    "favicon": "https://www.javatpoint.com/favicon.ico",
-    "title": "Javatpoint Homepage",
-    "description": "Tutorials, Free Online Tutorials, Javatpoint provides tutorials and interview questions of all technology like java tutorial, android, java frameworks, javascript, ajax, core java, sql, python, php, c language etc. for beginners and professionals.",
-    "data": {
-      "img": [
-        "https://d2jdgazzki9vjm.cloudfront.net/images/small_home.png",
-        "https://d2jdgazzki9vjm.cloudfront.net/images/home-1.png"
-      ],
-      "code": []
-    }
-  },
-  {
-    "ids": 16,
-    "url": "https://www.learncpp.com/",
+    "ids": 4,
+    "url": "https://www.learncpp.com/\n",
     "uri": "www.learncpp.com",
     "favicon": "https://www.learncpp.com/favicon.ico",
     "title": "Learn C++ – Skill up with our free tutorials",
@@ -243,15 +59,194 @@
     }
   },
   {
-    "ids": 17,
-    "url": "https://www.cs50.net/",
-    "uri": "www.cs50.net",
-    "favicon": "https://www.cs50.net/favicon.ico",
-    "title": "CS50: Computer Science Courses and Programs from Harvard | edX",
-    "description": "Introduction to Computer Science from Harvard, better known as CS50, is the largest course on the Harvard campus and more than 4,000,000 learners worldwide have registered for the course on edX.",
+    "ids": 5,
+    "url": "https://roadmap.sh/\n",
+    "uri": "roadmap.sh",
+    "favicon": "https://roadmap.sh/favicon.ico",
+    "title": "Developer Roadmaps - roadmap.sh",
+    "description": "Community driven roadmaps, articles and guides for developers to grow in their career.",
+    "data": {
+      "img": [],
+      "code": []
+    }
+  },
+  {
+    "ids": 6,
+    "url": "https://www.geeksforgeeks.org/data-structures/\n",
+    "uri": "www.geeksforgeeks.org",
+    "favicon": "https://www.geeksforgeeks.org/favicon.ico",
+    "title": "Data Structures Tutorial - GeeksforGeeks",
+    "description": "A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.",
     "data": {
       "img": [
-        "https://www.edx.org/contentful/ii9ehdcj88bc/2Dql1UzpTKEKUNQs2eZa3s/71ef94d1ebbb25044cfabcd23503560c/0.jpg?w=480&h=360&fm=webp",
+        "https://media.geeksforgeeks.org/gfg-gg-logo.svg",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/Google-news.svg",
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230706095706/intro-data-structure-%E2%80%93-1.png",
+        "https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/Google-news.svg",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/gfgFooterLogo.png",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/googleplay.png",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/appstore.png",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/suggestChangeIcon.png",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/createImprovementIcon.png"
+      ],
+      "code": []
+    }
+  },
+  {
+    "ids": 7,
+    "url": "https://www.tutorialspoint.com/data_structures_algorithms/index.htm\n",
+    "uri": "www.tutorialspoint.com",
+    "favicon": "https://www.tutorialspoint.com/favicon.ico",
+    "title": "Data Structures and Algorithms (DSA) Tutorial",
+    "description": "Data structures and algorithms (DSA) are two important aspects of any programming language. Every programming language has its own data structures and different types of algorithms to handle these data structures.Data Structures are used to organise and store data to use it in an effective way when ",
+    "data": {
+      "img": [
+        "https://www.tutorialspoint.com/static/images/logo-footer.svg",
+        "https://www.tutorialspoint.com/static/images/googleplay.svg",
+        "https://www.tutorialspoint.com/static/images/appstore.svg"
+      ],
+      "code": [
+        "#include &lt;stdio.h&gt;\nint main(){\n   int LA[3] = {}, i;\n   for(i = 0; i &lt; 3; i++) {\n      LA[i] = i + 2;\n      printf(\"LA[%d] = %d \\n\", i, LA[i]);\n   }\n   return 0;\n}\n",
+        "LA [0] = 2\nLA [1] = 3\nLA [2] = 4\n",
+        "#include &lt;iostream&gt;\nusing namespace std;\nint main(){\n   int LA[3] = {}, i;\n   for(i = 0; i &lt; 3; i++) {\n      LA[i] = i + 2;\n      cout &lt;&lt; \"LA[\" &lt;&lt; i &lt;&lt;\"] = \" &lt;&lt; LA[i] &lt;&lt; endl;\n   }\n   return 0;\n}\n",
+        "LA [0] = 2\nLA [1] = 3\nLA [2] = 4\n",
+        "public class ArrayDemo {\n   public static void main(String []args) {\n      int LA[] = new int[3];\n      for(int i = 0; i &lt; 3; i++) {\n         LA[i] = i+2;\n         System.out.println(\"LA[\" + i + \"] = \" + LA[i]);\n      }\n   }\n}\n",
+        "LA [0] = 2\nLA [1] = 3\nLA [2] = 4\n",
+        "LA = [0, 0, 0]\nx = 0\nfor x in range(len(LA)):\n   LA[x] = x+2;\n   print(\"LA\", [x], \" = \" , LA[x])\n",
+        "LA [0] = 2\nLA [1] = 3\nLA [2] = 4\n"
+      ]
+    }
+  },
+  {
+    "ids": 8,
+    "url": "https://www.programiz.com/dsa\n",
+    "uri": "www.programiz.com",
+    "favicon": "https://www.programiz.com/favicon.ico",
+    "title": "Learn Data Structures and Algorithms",
+    "description": "Try Programiz PROLearn Python practically and Get Certified.Learn Python practically and Get Certified. Data Structures and Algorithms (DSA) is an essential skill for any programmer looking to solve problems efficiently. Understanding and utilizing DS",
+    "data": {
+      "img": [],
+      "code": []
+    }
+  },
+  {
+    "ids": 9,
+    "url": "https://www.codecademy.com/learn/introduction-to-algorithms\n",
+    "uri": "www.codecademy.com",
+    "favicon": "https://www.codecademy.com/favicon.ico",
+    "title": "Catalog Home | CodecademyChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseChecker DenseCodecademy from SkillsoftCodecademy from Skillsoft",
+    "description": "If you’re not sure where to begin or what to learn next, this is a great place to start. Check out our top coding courses, Skill Paths, and Career Paths.",
+    "data": {
+      "img": [
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/full-stack-engineer-career-path/curriculum-card.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/code-foundations/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/computer-science/curriculum-card.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/learn-how-to-build-websites/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/bi-data-analyst/curriculum-card.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/analyze-data-with-sql/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/front-end-engineer-career-path/curriculum-card.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/machine-learning-ai-engineering-foundations/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/full-stack-engineer-career-path/curriculum-card.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/code-foundations/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/computer-science/curriculum-card.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/learn-how-to-build-websites/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/bi-data-analyst/curriculum-card.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/analyze-data-with-sql/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/front-end-engineer-career-path/curriculum-card.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/machine-learning-ai-engineering-foundations/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/analyze-data-with-sql/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/code-foundations/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/learn-how-to-build-websites/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/bi-data-analyst/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/c/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/components/curriculum/path/data-science-foundations/curriculum-card.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg",
+        "https://static-assets.codecademy.com/Courses/Course-Cards/pillars.svg"
+      ],
+      "code": []
+    }
+  },
+  {
+    "ids": 10,
+    "url": "https://www.geeksforgeeks.org/machine-learning/\n",
+    "uri": "www.geeksforgeeks.org",
+    "favicon": "https://www.geeksforgeeks.org/favicon.ico",
+    "title": "Machine Learning Tutorial - GeeksforGeeks",
+    "description": "A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.",
+    "data": {
+      "img": [
+        "https://media.geeksforgeeks.org/gfg-gg-logo.svg",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/Google-news.svg",
+        "https://media.geeksforgeeks.org/wp-content/uploads/20231231113646/ML-Tutorial.jpg",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/Google-news.svg",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/gfgFooterLogo.png",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/googleplay.png",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/appstore.png",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/suggestChangeIcon.png",
+        "https://media.geeksforgeeks.org/auth-dashboard-uploads/createImprovementIcon.png"
+      ],
+      "code": []
+    }
+  },
+  {
+    "ids": 11,
+    "url": "https://www.edx.org/learn/machine-learning\n",
+    "uri": "www.edx.org",
+    "favicon": "https://www.edx.org/favicon.ico",
+    "title": "Best Online Machine Learning Courses and Programs | edX",
+    "description": "Discover online machine learning courses. Master machine learning skills and concepts to advance your education and career. ",
+    "data": {
+      "img": [
+        "https://www.edx.org/contentful/ii9ehdcj88bc/1jlfb5alPdrZP3iTqCe2k5/74ff2c4657e3563cc3aeadfafc8f44f7/Machine_Learning.jpg?w=435&h=245&q=50&fm=webp",
         "https://www.edx.org/cdn-cgi/image/width=120,height=40,format=webp,quality=75/images/logos/apple-store-badge-en.svg",
         "https://www.edx.org/cdn-cgi/image/width=undefined,height=undefined,format=webp,quality=75/images/logos/google-play-badge-en.png"
       ],
@@ -259,12 +254,343 @@
     }
   },
   {
+    "ids": 12,
+    "url": "https://scikit-learn.org/stable/\n",
+    "uri": "scikit-learn.org",
+    "favicon": "https://scikit-learn.org/favicon.ico",
+    "title": "scikit-learn: machine learning in Python — scikit-learn 1.5.2 documentation",
+    "description": "Identifying which category an object belongs to. Applications: Spam detection, image recognition. Algorithms: Gradient boosting, nearest neighbors, random forest, logistic regression, and more... Predicting",
+    "data": {
+      "img": [],
+      "code": []
+    }
+  },
+  {
+    "ids": 13,
+    "url": "https://www.tensorflow.org/\n",
+    "uri": "www.tensorflow.org",
+    "favicon": "https://www.tensorflow.org/favicon.ico",
+    "title": "TensorFlow",
+    "description": "An end-to-end open source machine learning platform for everyone. Discover TensorFlow's flexible ecosystem of tools, libraries and community resources.",
+    "data": {
+      "img": [
+        "https://www.gstatic.com/devrel-devsite/prod/vdf5af65c45d9e2fdd493c581ff01cb1d11a21b4420a9fcc957400a26863da9d2/tensorflow/images/lockup.svg",
+        "https://www.gstatic.com/devrel-devsite/prod/vdf5af65c45d9e2fdd493c581ff01cb1d11a21b4420a9fcc957400a26863da9d2/tensorflow/images/lockup.svg"
+      ],
+      "code": [
+        "<span class=\"devsite-syntax-kn\">import</span> <span class=\"devsite-syntax-nn\">tensorflow</span> <span class=\"devsite-syntax-k\">as</span> <span class=\"devsite-syntax-nn\">tf</span>\n<span class=\"devsite-syntax-n\">mnist</span> <span class=\"devsite-syntax-o\">=</span> <span class=\"devsite-syntax-n\">tf</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">keras</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">datasets</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">mnist</span>\n\n<span class=\"devsite-syntax-p\">(</span><span class=\"devsite-syntax-n\">x_train</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-n\">y_train</span><span class=\"devsite-syntax-p\">),(</span><span class=\"devsite-syntax-n\">x_test</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-n\">y_test</span><span class=\"devsite-syntax-p\">)</span> <span class=\"devsite-syntax-o\">=</span> <span class=\"devsite-syntax-n\">mnist</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">load_data</span><span class=\"devsite-syntax-p\">()</span>\n<span class=\"devsite-syntax-n\">x_train</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-n\">x_test</span> <span class=\"devsite-syntax-o\">=</span> <span class=\"devsite-syntax-n\">x_train</span> <span class=\"devsite-syntax-o\">/</span> <span class=\"devsite-syntax-mf\">255.0</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-n\">x_test</span> <span class=\"devsite-syntax-o\">/</span> <span class=\"devsite-syntax-mf\">255.0</span>\n\n<span class=\"devsite-syntax-n\">model</span> <span class=\"devsite-syntax-o\">=</span> <span class=\"devsite-syntax-n\">tf</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">keras</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">models</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">Sequential</span><span class=\"devsite-syntax-p\">([</span>\n  <span class=\"devsite-syntax-n\">tf</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">keras</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">layers</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">Flatten</span><span class=\"devsite-syntax-p\">(</span><span class=\"devsite-syntax-n\">input_shape</span><span class=\"devsite-syntax-o\">=</span><span class=\"devsite-syntax-p\">(</span><span class=\"devsite-syntax-mi\">28</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-mi\">28</span><span class=\"devsite-syntax-p\">)),</span>\n  <span class=\"devsite-syntax-n\">tf</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">keras</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">layers</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">Dense</span><span class=\"devsite-syntax-p\">(</span><span class=\"devsite-syntax-mi\">128</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-n\">activation</span><span class=\"devsite-syntax-o\">=</span><span class=\"devsite-syntax-s1\">'relu'</span><span class=\"devsite-syntax-p\">),</span>\n  <span class=\"devsite-syntax-n\">tf</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">keras</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">layers</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">Dropout</span><span class=\"devsite-syntax-p\">(</span><span class=\"devsite-syntax-mf\">0.2</span><span class=\"devsite-syntax-p\">),</span>\n  <span class=\"devsite-syntax-n\">tf</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">keras</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">layers</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">Dense</span><span class=\"devsite-syntax-p\">(</span><span class=\"devsite-syntax-mi\">10</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-n\">activation</span><span class=\"devsite-syntax-o\">=</span><span class=\"devsite-syntax-s1\">'softmax'</span><span class=\"devsite-syntax-p\">)</span>\n<span class=\"devsite-syntax-p\">])</span>\n\n<span class=\"devsite-syntax-n\">model</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">compile</span><span class=\"devsite-syntax-p\">(</span><span class=\"devsite-syntax-n\">optimizer</span><span class=\"devsite-syntax-o\">=</span><span class=\"devsite-syntax-s1\">'adam'</span><span class=\"devsite-syntax-p\">,</span>\n  <span class=\"devsite-syntax-n\">loss</span><span class=\"devsite-syntax-o\">=</span><span class=\"devsite-syntax-s1\">'sparse_categorical_crossentropy'</span><span class=\"devsite-syntax-p\">,</span>\n  <span class=\"devsite-syntax-n\">metrics</span><span class=\"devsite-syntax-o\">=</span><span class=\"devsite-syntax-p\">[</span><span class=\"devsite-syntax-s1\">'accuracy'</span><span class=\"devsite-syntax-p\">])</span>\n\n<span class=\"devsite-syntax-n\">model</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">fit</span><span class=\"devsite-syntax-p\">(</span><span class=\"devsite-syntax-n\">x_train</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-n\">y_train</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-n\">epochs</span><span class=\"devsite-syntax-o\">=</span><span class=\"devsite-syntax-mi\">5</span><span class=\"devsite-syntax-p\">)</span>\n<span class=\"devsite-syntax-n\">model</span><span class=\"devsite-syntax-o\">.</span><span class=\"devsite-syntax-n\">evaluate</span><span class=\"devsite-syntax-p\">(</span><span class=\"devsite-syntax-n\">x_test</span><span class=\"devsite-syntax-p\">,</span> <span class=\"devsite-syntax-n\">y_test</span><span class=\"devsite-syntax-p\">)</span>"
+      ]
+    }
+  },
+  {
+    "ids": 14,
+    "url": "https://pytorch.org/\n",
+    "uri": "pytorch.org",
+    "favicon": "https://pytorch.org/favicon.ico",
+    "title": "\n    \n      PyTorch\n    \n  ",
+    "description": "",
+    "data": {
+      "img": [
+        "https://analytics.twitter.com/i/adsct?p_id=Twitter&p_user_id=0&txn_id=o2gi1&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0 (https://urldefense.proofpoint.com/v2/url?u=https-3A__analytics.twitter.com_i_adsct-3Fp-5Fid-3DTwitter-26p-5Fuser-5Fid-3D0-26txn-5Fid-3Do2gi1-26events-3D-255B-255B-2522pageview-2522-252Cnull-255D-255D-26tw-5Fsale-5Famount-3D0-26tw-5Forder-5Fquantity-3D0&d=DwMGaQ&c=5VD0RTtNlTh3ycd41b3MUw&r=GMr8XYCDyeQQZuD3noL91A&m=dAJyokk16UvYy-vMrGn_JwYiGfp_eEgo25B9iGDCG-A&s=o6i4D0V0088WH2RnzIoqiF-vj45PL-2sTrsxQ0SNO3A&e=)",
+        "https://www.googleadservices.com/pagead/conversion/795629140/?label=txkmCPmdtosBENSssfsC&guid=ON&script=0"
+      ],
+      "code": []
+    }
+  },
+  {
+    "ids": 15,
+    "url": "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271\n",
+    "uri": "Invalid URL",
+    "favicon": "No Icon",
+    "title": "-",
+    "description": "-",
+    "data": ""
+  },
+  {
+    "ids": 16,
+    "url": "https://ai.google/\n",
+    "uri": "ai.google",
+    "favicon": "https://ai.google/favicon.ico",
+    "title": "Making AI helpful for everyone - Google AI – Google AI",
+    "description": "At Google, we want to make AI helpful for everyone because we think that AI can meaningfully improve people's lives.",
+    "data": {
+      "img": [
+        "https://kstatic.googleusercontent.com/files/8b35672404c17773768b5d4fc0e9fa2ec81f1dd188657dc0a5fb63d185b8dd643f8e6f8ce2252ddd81019e4cdee3ab2d9b37d59710b4005c2d721d8c19fcdb75",
+        "https://kstatic.googleusercontent.com/files/8eb77472d5a6fdea96e4204bc5cbe737b8273ef7ec878ea38f60720ffd4c03dacd369d00d0644e6fee7c8c8c483d4b1d598efe60c21136020159ce8b3eb01274",
+        "https://kstatic.googleusercontent.com/files/5bc640ee2f9f779b863f853edbe412bf2ddb2d331bd1c6c34186674a570ad543260ca16c9cdd1b295c2246a55732d35ee4e03a2c58492c324f8bbe83f9e59740",
+        "https://i.ytimg.com/vi/9n0_I16KvHU/maxresdefault.jpg",
+        "https://lh3.googleusercontent.com/0FUeC6_xZBkxmmeKNax3Y-4KA3aJge3Fg_NG4-VZHulGNUyd-XK1X8PFLZbOC51B64umYc6yl0RZ4_V0yWNG9gNTWesqFIKVw6Oo0qRNMzy5Zn2Q_CM=-rw",
+        "https://lh3.googleusercontent.com/pnkmsJVPrY4_Fcts6OA8ZHU4SAHi7DQvRZ5QV6uCjdo-u7cE15gRT4jtUccBTr9_BK4ukRl_pZsmkNvWHaGxy0YLdl5-47dOvly62xu9-nDvfheM5BY=-rw",
+        "https://lh3.googleusercontent.com/6DZlIPsF403b-m8owZajqMEVN2wlfSjsYDBMgee8Nz89xpvGdHAZiZYIJEEaFp0oKfDQAsRgg6dtLwWHQwRNsL-CNy2HwAcv3YS43B9CEJAGFZFjng=-rw",
+        "https://lh3.googleusercontent.com/W1UXAaf2GPIDGrWlR4ROdvZmOAh3TzOvvAxdmnzMcEGmf3nb_qoRDHNwbk9T8mmzTZd0yhb52X93LQkfsXarYHBXkihwxIv1CFEteA4pdOxCbTGukA=-rw",
+        "https://lh3.googleusercontent.com/qtv2tVYh1KLF2t9gqBosN8zSvooQq2PZ7Mxgrxs37I1XftqKldS4NSwtep8z6JfDFXalpgTKk_vELm1hJnQ4r8NcIPT5L8z2kcDT_nuT8gO0jks4YjP_=-rw",
+        "https://lh3.googleusercontent.com/eZm_pdTCgkPJ5I8OWfuIc_IflgLSGk2wfw1vpcM9PuWOYjq5ZUtE4x33gMnBtIHcmrc37n1roNE8pIPQF1KKkJIsWIyHMWzbO98tbnJ1L36lgV1zb9Y=-rw",
+        "https://lh3.googleusercontent.com/ygAfXftupXAv7SodbrLWCtysIBwjFxMA7AHqgEaTpc4UYswqUIbKjtizzsgMWsdwEF5PF859XVeRqlVYg5ZhlfO8gtDQKpDUp5s8tLzjGOXMT8-ACw=-rw",
+        "https://lh3.googleusercontent.com/NojiGLKtwB6qAm5CIFSxuVyj5j3pfJROrye_I-510I9aMfpj8y-1q6u2Yoc1WPG69HOsSAxVVFOh8wQm5jjRcT5B7BnZgax_FbpCvvBA67wqRm7daJA=-rw",
+        "https://lh3.googleusercontent.com/0FUeC6_xZBkxmmeKNax3Y-4KA3aJge3Fg_NG4-VZHulGNUyd-XK1X8PFLZbOC51B64umYc6yl0RZ4_V0yWNG9gNTWesqFIKVw6Oo0qRNMzy5Zn2Q_CM=-rw",
+        "https://lh3.googleusercontent.com/pnkmsJVPrY4_Fcts6OA8ZHU4SAHi7DQvRZ5QV6uCjdo-u7cE15gRT4jtUccBTr9_BK4ukRl_pZsmkNvWHaGxy0YLdl5-47dOvly62xu9-nDvfheM5BY=-rw",
+        "https://lh3.googleusercontent.com/6DZlIPsF403b-m8owZajqMEVN2wlfSjsYDBMgee8Nz89xpvGdHAZiZYIJEEaFp0oKfDQAsRgg6dtLwWHQwRNsL-CNy2HwAcv3YS43B9CEJAGFZFjng=-rw",
+        "https://lh3.googleusercontent.com/W1UXAaf2GPIDGrWlR4ROdvZmOAh3TzOvvAxdmnzMcEGmf3nb_qoRDHNwbk9T8mmzTZd0yhb52X93LQkfsXarYHBXkihwxIv1CFEteA4pdOxCbTGukA=-rw",
+        "https://lh3.googleusercontent.com/qtv2tVYh1KLF2t9gqBosN8zSvooQq2PZ7Mxgrxs37I1XftqKldS4NSwtep8z6JfDFXalpgTKk_vELm1hJnQ4r8NcIPT5L8z2kcDT_nuT8gO0jks4YjP_=-rw",
+        "https://lh3.googleusercontent.com/eZm_pdTCgkPJ5I8OWfuIc_IflgLSGk2wfw1vpcM9PuWOYjq5ZUtE4x33gMnBtIHcmrc37n1roNE8pIPQF1KKkJIsWIyHMWzbO98tbnJ1L36lgV1zb9Y=-rw",
+        "https://lh3.googleusercontent.com/ygAfXftupXAv7SodbrLWCtysIBwjFxMA7AHqgEaTpc4UYswqUIbKjtizzsgMWsdwEF5PF859XVeRqlVYg5ZhlfO8gtDQKpDUp5s8tLzjGOXMT8-ACw=-rw",
+        "https://lh3.googleusercontent.com/NojiGLKtwB6qAm5CIFSxuVyj5j3pfJROrye_I-510I9aMfpj8y-1q6u2Yoc1WPG69HOsSAxVVFOh8wQm5jjRcT5B7BnZgax_FbpCvvBA67wqRm7daJA=-rw",
+        "https://lh3.googleusercontent.com/0FUeC6_xZBkxmmeKNax3Y-4KA3aJge3Fg_NG4-VZHulGNUyd-XK1X8PFLZbOC51B64umYc6yl0RZ4_V0yWNG9gNTWesqFIKVw6Oo0qRNMzy5Zn2Q_CM=-rw",
+        "https://lh3.googleusercontent.com/pnkmsJVPrY4_Fcts6OA8ZHU4SAHi7DQvRZ5QV6uCjdo-u7cE15gRT4jtUccBTr9_BK4ukRl_pZsmkNvWHaGxy0YLdl5-47dOvly62xu9-nDvfheM5BY=-rw",
+        "https://lh3.googleusercontent.com/6DZlIPsF403b-m8owZajqMEVN2wlfSjsYDBMgee8Nz89xpvGdHAZiZYIJEEaFp0oKfDQAsRgg6dtLwWHQwRNsL-CNy2HwAcv3YS43B9CEJAGFZFjng=-rw",
+        "https://lh3.googleusercontent.com/W1UXAaf2GPIDGrWlR4ROdvZmOAh3TzOvvAxdmnzMcEGmf3nb_qoRDHNwbk9T8mmzTZd0yhb52X93LQkfsXarYHBXkihwxIv1CFEteA4pdOxCbTGukA=-rw",
+        "https://lh3.googleusercontent.com/qtv2tVYh1KLF2t9gqBosN8zSvooQq2PZ7Mxgrxs37I1XftqKldS4NSwtep8z6JfDFXalpgTKk_vELm1hJnQ4r8NcIPT5L8z2kcDT_nuT8gO0jks4YjP_=-rw",
+        "https://lh3.googleusercontent.com/eZm_pdTCgkPJ5I8OWfuIc_IflgLSGk2wfw1vpcM9PuWOYjq5ZUtE4x33gMnBtIHcmrc37n1roNE8pIPQF1KKkJIsWIyHMWzbO98tbnJ1L36lgV1zb9Y=-rw",
+        "https://lh3.googleusercontent.com/ygAfXftupXAv7SodbrLWCtysIBwjFxMA7AHqgEaTpc4UYswqUIbKjtizzsgMWsdwEF5PF859XVeRqlVYg5ZhlfO8gtDQKpDUp5s8tLzjGOXMT8-ACw=-rw",
+        "https://lh3.googleusercontent.com/NojiGLKtwB6qAm5CIFSxuVyj5j3pfJROrye_I-510I9aMfpj8y-1q6u2Yoc1WPG69HOsSAxVVFOh8wQm5jjRcT5B7BnZgax_FbpCvvBA67wqRm7daJA=-rw",
+        "https://kstatic.googleusercontent.com/files/b56e7b950f991e3d13fbc2d164d08ca5beb027834db8721347fc27527885c57da048bd91ed930ba91f4a434c4c19e2f884380c0e364ae4924ebd827dac94c236",
+        "https://kstatic.googleusercontent.com/files/0a919c2f20f1e2262c7aee69d9695d98df2a5caf0c1ec7bfa40d256a39533264ed1f025285fb8060687338b54e34122730da82621d881567dda29c936b64b786",
+        "https://lh3.googleusercontent.com/unaEc6I_VLa-rOnFbgEPoqUJ_FN9eThdC9sZfudv7-feolcKj_nUE6lo1LfRkJhicE-MRmenCPTdMejS9g9GYb1cUYVQ3jkt75woiv3iMcOlzn8aaL0d=-rw",
+        "https://lh3.googleusercontent.com/qck72CVYF-i47rIO-FHOiyzYYFNjBeEel57I-L-2jc7635fc5nY87ja_brP7ZtJVyGDeOcpmp-_nYD3WQ7acxuet3Ll4g87H1p9VFyEaI6j5KGK8SQ=-rw",
+        "https://lh3.googleusercontent.com/miuQivTPnYU73djUOnvqp9X7Gxz4PtEZrIH-tpd5paOuHzZHWXwp5FUbPm55BR4CMKVFnWbx12riaS76py1cz55woRJsdNuuGGb3_R9VIk6I_GgzTg=-rw",
+        "https://lh3.googleusercontent.com/uOCbD_XNbSNRWice1YmasHQ9BJtqrY9c8VyhHk_T2zeletpCoX8WFMML11NJCS5nN6_rBxwy97o9DGEb6fEmrXwex2hRyT4ciZZNTghHjXX0KX5hC2s=-rw",
+        "https://kstatic.googleusercontent.com/files/754afe3bdfa313fda3b8279d66150d71e671aa0b9d15e8dd3ee6e3e90b268f261ea7fc4b309cd74ac36439a3fc04635db88f475b9b5529404cb58791f25b4050",
+        "https://lh3.googleusercontent.com/nAXD99J-RS0r-W3w96PKZbijnOEh8lmUV9ERyPaRxFnLbQmbkqK0H5TUiNcsLTCVuW9KD_5x_uA6ncsTUQmsWHMKIKq_KAv612FAdFxB-6vdfCuud5K8=-rw",
+        "https://lh3.googleusercontent.com/9P93P4MIp-3VgER1N0z9if6ZLPQLqzkUTQMGigqUJkU7MXSgWRuGEQeopYFUWpEIcOAzn-SGTiUY9meeYaKGKpl8Odj5x-Jcx_MA55gJo8SZbZ0aPkU=-rw",
+        "https://lh3.googleusercontent.com/FQ3XZ6UXQZsoOQPUb0bgWP9aJOENM7Q0GQdgZP1Nzjc4jCA15F3wNIN9ASgeerMKCxcw2r2D7wIB7HxWQs2JVlXZCdsDbxassYJQZz1kHkXb_q_-HJE=-rw",
+        "https://lh3.googleusercontent.com/5-O9Z3n1fddJRugl_gYu90zJxmYvFkJAGAIIIXAMSCl0vkoOd72L7KgDabcp0C-iwXjALDFkkVaH8TpLXc73FEQ1tk_FaCOR4SNnuMEvuLrodC6Vfw=-rw",
+        "https://lh3.googleusercontent.com/bUhzK21DoEVSDuhu1I1Ne1wB31otKxMHq70M1D4c7woq5MNjHIzsxD-kWCGvyOdPnu04RCdonBKSGYmbRR3tNsqo3wK1gwuU_OsL1jQQGcUU5x4ti4M=-rw",
+        "https://lh3.googleusercontent.com/qSWEIirRjM7eRD8AZ_bWcih8-Lqy4Ig2a83qB18mEETVowbPxnKo4JiNHJ_JDUxWzIxMH6wOZ-q0na_eKVaXBwOWwyBtHqWdpxQhq77rzx8Q8p2p43I=-rw",
+        "https://lh3.googleusercontent.com/6AD-yA9a8jBqTFhjRJXpMxnZMw5-EchaVPum-qzVV4OJETpyNgtlaAc97CMOBOWHHh9fmGKL1a1qjgCCrmS1KRpSArX5JXB8Yr-k9hVVMGu-DN970j0=-rw",
+        "https://kstatic.googleusercontent.com/files/6fa6f76100c3d9c307ee8773ea323bfa47f2db5c25cdff373137425c059384e479b95cba310b30ddc99ce964ecb2c15c0b2d6f7aa492e4c0414224857f9994c4",
+        "https://kstatic.googleusercontent.com/files/d3adec59f4e2ac56b9c15654b378747a8096143e7c91eaa9ec8d4c9b9eb348cf6dfab524eb45f507c0ddc140457e1c0d2e6f6945f6f01190fb8cafa1db7c3bed",
+        "https://kstatic.googleusercontent.com/files/9a0c6a7f99513652f9cb982203bcf3e02b542b21fe2c6b1792f0e49ae795e1c16da5253cca8be033c88db96a8e207dd5d96a0cb426d1dda906c4ae892b945001",
+        "https://kstatic.googleusercontent.com/files/1b86f03443ce2cd4f67a60eb9ff30285ef71fb5d8824a9acff8ce1621b1b045673bc92db39c79ba50301026fecbdd6ec1546a1eb0cad92769b57dd160231c20e",
+        "https://kstatic.googleusercontent.com/files/6fa6f76100c3d9c307ee8773ea323bfa47f2db5c25cdff373137425c059384e479b95cba310b30ddc99ce964ecb2c15c0b2d6f7aa492e4c0414224857f9994c4",
+        "https://kstatic.googleusercontent.com/files/d3adec59f4e2ac56b9c15654b378747a8096143e7c91eaa9ec8d4c9b9eb348cf6dfab524eb45f507c0ddc140457e1c0d2e6f6945f6f01190fb8cafa1db7c3bed",
+        "https://kstatic.googleusercontent.com/files/9a0c6a7f99513652f9cb982203bcf3e02b542b21fe2c6b1792f0e49ae795e1c16da5253cca8be033c88db96a8e207dd5d96a0cb426d1dda906c4ae892b945001",
+        "https://kstatic.googleusercontent.com/files/1b86f03443ce2cd4f67a60eb9ff30285ef71fb5d8824a9acff8ce1621b1b045673bc92db39c79ba50301026fecbdd6ec1546a1eb0cad92769b57dd160231c20e",
+        "https://kstatic.googleusercontent.com/files/925e542e9afd20d26b8e240af6fb1c568a920ad5b15571bfba81284702358323fe681e2460a08778c140dce62b4d2c5e8f4df7405db95332a19a3e7075c1283b",
+        "https://lh3.googleusercontent.com/XwWCPP3hgikREw6jKe6A7lC5hilSFCTztRpRdS1jiwjEJOseOIhnAhRg2CVHJP3cf3v03bNsJDn6XRZXB2GSV-lTp6T4h1_GJzqw2x-peHINoRnaxfg=-rw",
+        "https://lh3.googleusercontent.com/1_eaVqidCaIOEt7ofLEWlavtWhKtd3C2ZNpEt_PXDPyPzmsMs2DeaNq1ZTtl-ZPFCgwrAvXI76OckUXj4cLwTs-eCz0eepSprjjLFmiEIaEfo9JYK6ZM=-rw",
+        "https://kstatic.googleusercontent.com/files/4df6845a041055f36141ac3cf7abb1bce6aa417f6421817f0d04413d03f8396fc256015a9bb7d0cfcaf05d1066995f1d1530c47fc5ef4ea68654aa4655c26440",
+        "https://lh3.googleusercontent.com/9nW0Nn94pvpAvFB-VuAytAiUXsw984ZDjh5A-bwL8p_5A8eFgd1LuNURu0cSU5ZOBC93LrgIqMEQgVtHGikDK4ubxvJ5U5oI-QVFuUMe8RXCJonKrQ=-rw",
+        "https://lh3.googleusercontent.com/JWLa38qzkmg2LgLPzUfuIITnZTILMLyffrMEu7A5aZetUbtqsWHjJ1P2y1ENuPMSA0JvKS0tV36EofVFEZxvG070J55ae0JF6u-kxRSntaZ0TNnGFQ=-rw",
+        "https://lh3.googleusercontent.com/lnmCRTeEPS5IYtI7U1CHfeE5umdD3gUejCVeVFew0djYCyzknLE58O3be6h0_lwVn70M0M0FMOGsAbAsdfnWu8xiB8lqKV3HONMCGjrTTi8gBeTF4EU",
+        "https://lh3.googleusercontent.com/t8JGohszA8uSUAQgQd0hUVxkVHTXot0YhlhgyZjYNiEAv6FzmD5U7a7ucZvsO3wlZBf7-iOp5hK0Dx2esIL2KxuesyCWwOGdrQ8O1p_fkG3ioRG6vas",
+        "https://lh3.googleusercontent.com/lCYhhWXqaYVZLTicfQM6dr7R32XZ9eOI2GQIELJ0Fgt7vgewZ3AN0f-EZRbtGAUEIcDfY7xUa7kjo6p0VmPLzwSjYABZbmRgujJbYUPl_AEFNn4quJ4H",
+        "https://lh3.googleusercontent.com/Q4lVgTfEmqqY1PGYwSnWs10SVzxmJaCZ--B0ifZypvytB-WZU1g4lPG0QuVko0U1L-7h4L171f2qVwh66QC673OD-shgTjJ-wNEkRe3OKJucNtVveVc"
+      ],
+      "code": []
+    }
+  },
+  {
+    "ids": 17,
+    "url": "https://nptel.ac.in/courses/106/108/106108113/\n",
+    "uri": "nptel.ac.in",
+    "favicon": "https://nptel.ac.in/favicon.ico",
+    "title": "NPTEL IITm",
+    "description": "",
+    "data": {
+      "img": [],
+      "code": []
+    }
+  },
+  {
     "ids": 18,
-    "url": "https://roadmap.sh/",
-    "uri": "roadmap.sh",
-    "favicon": "https://roadmap.sh/favicon.ico",
-    "title": "Developer Roadmaps - roadmap.sh",
-    "description": "Community driven roadmaps, articles and guides for developers to grow in their career.",
+    "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/\n",
+    "uri": "pages.cs.wisc.edu",
+    "favicon": "https://pages.cs.wisc.edu/favicon.ico",
+    "title": "Operating Systems: Three Easy Pieces",
+    "description": " Welcome to Operating Systems: Three Easy Pieces (now version 1.10 -- see\nbook news for details), a free online operating systems\nbook! The book is centered around three conceptual pieces that are\nfundamental to operating systems: virtualization, concurrency, and persistence. In understanding the ",
+    "data": {
+      "img": [
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0131103628",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0321637739",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0985673524",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=1118063333",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0133805913",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=013359162X",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0672329468",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0596005652",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0321968972",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0131482092",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0321278542",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0132017997",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=1593272200",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0375507256",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0156027321",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0062204092",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=1476746583",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0375842209",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=014242417X",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0812984250",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0385491204",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0553593714",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0446310786",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=159463193X",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0812550706",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0553293354",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0440180295",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0143034901",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0156030306",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0440414806",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=038572179X",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0756404746",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=1400033411",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0684803356",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0451167538",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0441569595",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0553380958",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0060512806",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0312330537",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=1482694573",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0486452433",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0099427869",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0060892994",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0547773749",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0812974018",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=1876963468",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=031624662X",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=1609450787",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=037575931X",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0679735909",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0143117351",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0962344745",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=1596879882",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0449005615",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0812974492",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0393316041",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0805078533",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0061336467",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0061339202",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0393317552",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0199291152",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0375725784",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0743296281",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0060731338",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0385418493",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0140275010",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0375725601",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0393343405",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0307275175",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0961392142",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=1592402038",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=020530902X",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0465067107",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0812980557",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0316491977",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=069116472X",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0316013323",
+        "https://ir-na.amazon-adsystem.com/e/ir?t=opesysthrea0a-20&l=as2&o=1&a=0679728058"
+      ],
+      "code": []
+    }
+  },
+  {
+    "ids": 19,
+    "url": "https://www.udacity.com/course/introduction-to-operating-systems--ud923\n",
+    "uri": "Invalid URL",
+    "favicon": "No Icon",
+    "title": "-",
+    "description": "-",
+    "data": ""
+  },
+  {
+    "ids": 20,
+    "url": "https://www.coursera.org/learn/os-power-user\n",
+    "uri": "www.coursera.org",
+    "favicon": "https://www.coursera.org/favicon.ico",
+    "title": "Operating Systems and You: Becoming a Power User | CourseraOpens in a new tab",
+    "description": "Offered by Google. In this course -- through a combination of video lectures, demonstrations, and hands-on practice -- you’ll learn about ... Enroll for free.",
+    "data": {
+      "img": [
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/4a/cb36835ae3421187080898a7ecc11d/Google-G_360x360.png?auto=format%2Ccompress&dpr=1&w=28&h=28",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/fa/79e521abf14610b4fec9d677901916/0.png?auto=format%2Ccompress&dpr=1&h=45",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/61/36584e2633455296817e987d653e8d/500x500_Google.jpg?auto=format%2Ccompress&dpr=1&w=75&h=75&fit=crop",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/coursera_plus/landing_page/coursera-plus-blue.png?auto=format%2Ccompress&dpr=1&h=12",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/31ebcba3851b87d1d8609abf15d0ff7e.png?auto=format%2Ccompress&dpr=1&w=24&h=24",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/74c8747e8210831049cf88dd4eefe26c.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=320",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/a7c5400e51272c78b710ce9b56fd3178.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=562",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/de1a6556fbe605411e8c1c2ca4ba45f1.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=259",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/de1a6556fbe605411e8c1c2ca4ba45f1.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=333",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/61/36584e2633455296817e987d653e8d/500x500_Google.jpg?auto=format%2Ccompress&dpr=1&w=75&h=75&fit=crop",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/4a/cb36835ae3421187080898a7ecc11d/Google-G_360x360.png?auto=format%2Ccompress&dpr=1&w=38&h=38&fit=fill",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/4a/cb36835ae3421187080898a7ecc11d/Google-G_360x360.png?auto=format%2Ccompress&dpr=1&w=88&h=88&fit=fill",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/34/2e8b7248ec4e668995e8e2744f05fb/GettyImages-1331215115---Op-Systems-800x800.jpg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=204&fit=crop&q=50",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/7a/a2e70dcbc54748a917e51ced79ab9f/Square-OS-icon.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=204&fit=crop&q=50",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/4b/834f1caad14fa698f4be488b3fa65d/504473474.504473476.jpg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=204&fit=crop&q=50",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/30/f0bc3126a940d09d6182f8af1a3222/info-tech-4.jpg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=204&fit=crop&q=50",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/growth_testimonials/passionate_learner/Felipe_Moitta.png?auto=format%2Ccompress&dpr=1&w=64&h=64&fit=crop",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/growth_testimonials/passionate_learner/Jennifer_John.png?auto=format%2Ccompress&dpr=1&w=64&h=64&fit=crop",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/growth_testimonials/passionate_learner/Larry_Tao_Wang_1.png?auto=format%2Ccompress&dpr=1&w=64&h=64&fit=crop",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/growth_testimonials/passionate_learner/Chaitanya_Anand.png?auto=format%2Ccompress&dpr=1&w=64&h=64&fit=crop",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/7a1c0e2e779c1ff27cae62480adfe003.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=120",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=152&h=45&w=152",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=152&h=45&w=152",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/2018-B-Corp-Logo-Black-S.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=151&w=82&h=120",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/facebook.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=28&h=28&w=28",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/linkedin.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=28&h=28&w=28",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/twitter.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=28&h=28&w=28",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/youtube.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=28&h=28&w=28",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/instagram.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=28&h=28&w=28",
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/9b7e964107839c77644d7e7d15035b73.png?auto=format%2Ccompress&dpr=2&blur=200&px=8&max-w=28&h=28&w=28"
+      ],
+      "code": []
+    }
+  },
+  {
+    "ids": 21,
+    "url": "https://www.tutorialspoint.com/dbms/index.htm\n",
+    "uri": "www.tutorialspoint.com",
+    "favicon": "https://www.tutorialspoint.com/favicon.ico",
+    "title": "DBMS Tutorial",
+    "description": "Database Management System or DBMS in short refers to the technology of storing and retrieving users' data with utmost efficiency along with appropriate security measures. This tutorial explains the basics of DBMS such as its architecture, data models, data schema, data independence, E-R model, rela",
+    "data": {
+      "img": [
+        "https://www.tutorialspoint.com/static/images/logo-footer.svg",
+        "https://www.tutorialspoint.com/static/images/googleplay.svg",
+        "https://www.tutorialspoint.com/static/images/appstore.svg"
+      ],
+      "code": []
+    }
+  },
+  {
+    "ids": 22,
+    "url": "https://www.coursera.org/learn/intro-to-relational-databases\n",
+    "uri": "Invalid URL",
+    "favicon": "No Icon",
+    "title": "-",
+    "description": "-",
+    "data": ""
+  },
+  {
+    "ids": 23,
+    "url": "https://www.udacity.com/course/intro-to-relational-databases--ud197\n",
+    "uri": "Invalid URL",
+    "favicon": "No Icon",
+    "title": "-",
+    "description": "-",
+    "data": ""
+  },
+  {
+    "ids": 24,
+    "url": "https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm\n",
+    "uri": "www.tutorialspoint.com",
+    "favicon": "https://www.tutorialspoint.com/favicon.ico",
+    "title": "Basics of Computer Networking",
+    "description": "A computer network is a network of computer devices like computers, servers, routers, switches, or other related hardware’s that are interlinked with one another to communicate and share resources, exchange data, and shared services.The following are the characteristics of a computer network −A comp",
+    "data": {
+      "img": [
+        "https://www.tutorialspoint.com/static/images/logo-footer.svg",
+        "https://www.tutorialspoint.com/static/images/googleplay.svg",
+        "https://www.tutorialspoint.com/static/images/appstore.svg"
+      ],
+      "code": []
+    }
+  },
+  {
+    "ids": 25,
+    "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-829-computer-networks-fall-2002/\n",
+    "uri": "ocw.mit.edu",
+    "favicon": "https://ocw.mit.edu/favicon.ico",
+    "title": "Computer Networks | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+    "description": "How does the global network infrastructure work and what are the design principles on which it is based? In what ways are these design principles compromised in practice? How do we make it work better in today's world? How do we ensure that it will work well in the future in the face of rapidly growing scale and heterogeneity? And how should Internet applications be written, so they can obtain the best possible performance both for themselves and for others using the infrastructure? These are some issues that are grappled with in this course. The course will focus on the design, implementation, analysis, and evaluation of large-scale networked systems.\n\nTopics include internetworking philosophies, unicast and multicast routing, congestion control, network quality of service, mobile networking, router architectures, network-aware applications, content dissemination systems, network security, and performance issues. Material for the course will be drawn from research papers, industry white papers, and Internet RFCs.\n",
     "data": {
       "img": [],
       "code": []

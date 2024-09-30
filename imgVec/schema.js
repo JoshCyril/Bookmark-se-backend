@@ -28,8 +28,11 @@ export async function idbStart(req){
         ]
     }
 
-    return await client.schema
+    let val = await client.schema
         .classCreator()
         .withClass(schemaConfig)
         .do();
+    if(val){
+        return ' Image'
+    }
 }

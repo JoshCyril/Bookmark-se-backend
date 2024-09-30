@@ -41,7 +41,7 @@ export async function vdbStore(req){
         ids: idx,
     });
 
-    console.log("Created Embeddings - Text")
+    return "Text"
 }
 
 export async function vdbStoreCode(req){
@@ -85,7 +85,7 @@ export async function vdbStoreCode(req){
         ids: idx,
     });
 
-    console.log("Created Embeddings - Code")
+    return " Code"
 }
 
 export async function vdbSearch(req, isCode){
@@ -114,6 +114,17 @@ export async function vdbCode(req){
         include: ['documents', 'distances', 'metadatas']
     });
 
+}
+
+export async function vdbCheck(req){
+    let data = (fs.readFileSync('./emb.txt').toString()).split(/\r?\n/);
+    let res = false
+    data.forEach((el) => {
+        if(el === req.coll){
+            res = true
+        }
+    });
+    return res
 }
 
 export async function vdbId(req){

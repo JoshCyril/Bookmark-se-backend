@@ -80,12 +80,12 @@ export async function scrapeData(urls) {
 
         collections.push(collection);
         progress +=  incr //0.01
-        progressBar(progress)
-        // console.log(`urls ${idx + 1} of ${urls.length}`);
+        // progressBar(progress)
+        console.log(`url ${idx + 1} of ${urls.length}`);
 
     }
     await storeData();
-    return "ok"
+    return `Scrapped ${urls.length} URLs`
   }
 
   async function storeData(){
@@ -104,20 +104,20 @@ export async function scrapeData(urls) {
 
 
   function progressBar(percent) {
-    const barLength = lenUrl;
-    const filledLength = Math.round(percent * barLength);
-    const emptyLength = barLength - filledLength;
+    // const barLength = lenUrl;
+    // const filledLength = Math.round(percent * barLength);
+    // const emptyLength = barLength - filledLength;
 
-    // console.log(percent, filledLength, emptyLength)
+    // // console.log(percent, filledLength, emptyLength)
 
-    const filledBar = '█'.repeat(filledLength);
-    const emptyBar = '░'.repeat(emptyLength);
-    const percentage = (percent * 100).toFixed(2);
+    // const filledBar = '█'.repeat(filledLength);
+    // const emptyBar = '░'.repeat(emptyLength);
+    // const percentage = (percent * 100).toFixed(2);
 
 
-    process.stdout.clearLine();
-    process.stdout.cursorTo(0);
-    process.stdout.write(`Extracting: [${filledBar}${emptyBar}] ${percentage}%`);
+    // process.stdout.clearLine();
+    // process.stdout.cursorTo(0);
+    // process.stdout.write(`Extracting: [${filledBar}${emptyBar}] ${percentage}%`);
 }
 
 // vdbStore();

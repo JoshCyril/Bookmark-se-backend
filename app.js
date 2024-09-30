@@ -1,11 +1,12 @@
 import express from "express";
-import { vdbSearch, vdbStore, vdbReset, vdbList, vdbStoreCode, vdbId, vdbCode } from "./textVec/db.js";
+import { vdbSearch, vdbStore, vdbReset, vdbList, vdbStoreCode, vdbId, vdbCode, vdbCheck } from "./textVec/db.js";
 import { idbStart } from "./imgVec/schema.js";
 import { idbStore } from "./imgVec/store.js";
 import { idbSearch } from "./imgVec/search.js";
 import { idbReset } from "./imgVec/remove.js";
 import { scrapeData } from "./textVec/scrapping.js";
-import { logMessage, urlToBase64, downloadImage } from "./helper.js";
+import { logMessage, urlToBase64, downloadImage, logEmb } from "./helper.js";
+import { graph } from "./textVec/graph.js";
 
 const app = express ();
 app.use(express.json());
@@ -22,10 +23,9 @@ const PORT = process.env.PORT || 3000;
     res.json("stable");
    });
 
-   app.get("/check", async (req, res, next) => {
-    const val = await urlToBase64("https://i.sstatic.net/mafZL.jpg")
-    // downloadImage("https://i.sstatic.net/mafZL.jpg", "1")
-    res.json(val)
+   app.post("/check", async (req, res, next) => {
+    const result_st = await vdbCheck(req.body);
+    res.json(result_st)
    });
 
    app.post("/reset", async (req, res, next) => {
@@ -57,11 +57,6 @@ const PORT = process.env.PORT || 3000;
     res.json(result);
    });
 
-   app.post("/search/id", async (req, res, next) => {
-    const result = await vdbId(req.body.query)
-    res.json(result);
-   });
-
 //    =========== Create scrapping & Embeddings ============
 
    app.post("/c/scrapping", async (req, res, next) => {
@@ -71,12 +66,21 @@ const PORT = process.env.PORT || 3000;
    });
 
    app.post("/c/embedding", async (req, res, next) => {
-    // const result_text = await vdbStore(req.body);
-    // const result_code = await vdbStoreCode(req.body);
 
-    // await idbStart(req.body);
+    const result_text = await vdbStore(req.body);
+    const result_code = await vdbStoreCode(req.body);
+
+    const result_st = await idbStart(req.body);
     const result_img = await idbStore(req.body);
-    res.json(result_img);
-
+    logEmb(req.body.coll);
     logMessage(req.body.coll + ' Created embedding');
+
+    const result = [result_text, result_code, result_st, result_img].toString();
+    res.json(result);
+    });
+
+    app.post("/c/graph", async (req, res, next) => {
+        const result = await graph(req.body)
+        res.json(result);
+        logMessage('Graph Created');
     });
